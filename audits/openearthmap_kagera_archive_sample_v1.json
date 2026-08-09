@@ -1,0 +1,288 @@
+{
+  "version": "archive-label-audit-v1",
+  "archive": "OpenEarthMap.parallel.zip",
+  "label_prefix": "OpenEarthMap_wo_xBD/kagera/labels/",
+  "label_files_total": 49,
+  "sampled_label_files": 16,
+  "observed_label_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "observed_label_pixel_counts": {
+    "0": 18829,
+    "1": 57518,
+    "2": 5417759,
+    "3": 790127,
+    "4": 292078,
+    "5": 5649543,
+    "7": 3850652,
+    "8": 700710
+  },
+  "samples": [
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_1.tif",
+      "values": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_12.tif",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_16.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_2.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_23.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_28.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_32.tif",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_35.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_38.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_41.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_45.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_50.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_55.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_59.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_64.tif",
+      "values": [
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "OpenEarthMap_wo_xBD/kagera/labels/kagera_9.tif",
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "L"
+    }
+  ],
+  "scope": "Sample audit only. Run a complete raw-label audit after extraction before publishing metrics."
+}

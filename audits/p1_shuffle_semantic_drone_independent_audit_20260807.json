@@ -1,0 +1,64 @@
+{
+  "version": "p1-shuffle-semantic-drone-independent-audit-v1",
+  "shuffle_gate_g2": {
+    "status": "pass",
+    "training": [
+      {
+        "seed": 19,
+        "checkpoint_sha256": "72eea139754354c2d932efe411c5840ab63190caaae4e9c7791c691bcff0ae4e",
+        "schedule_sha256": "df669beba00d95fc416c294a99311325dd1a4e988226bab20b1185a19c3f9400",
+        "schedule_records": 25220,
+        "merged_singleton_bins": 521,
+        "max_abs_density_difference": 0.2135162353515625,
+        "mean_abs_density_difference": 0.001258087460716786
+      },
+      {
+        "seed": 37,
+        "checkpoint_sha256": "0fa95223a864cdbed29fb6f3777d6449efe41bf8f3bc9a0fc2449f0ba6d137bd",
+        "schedule_sha256": "eeefea61a33d989e8a9c463e07d158f28b436affda362a79e9cae405ca0e19fe",
+        "schedule_records": 25220,
+        "merged_singleton_bins": 520,
+        "max_abs_density_difference": 0.25140380859375,
+        "mean_abs_density_difference": 0.001234859554281696
+      },
+      {
+        "seed": 73,
+        "checkpoint_sha256": "252a0ec63063be0a92bf3f539f624f6b1dd86678fc2092967929831f9ca31108",
+        "schedule_sha256": "08a5eaf9bce41d9f8e1d4b9d949f35611dd97421ff4f50d72275f43a90f2f7ef",
+        "schedule_records": 25220,
+        "merged_singleton_bins": 531,
+        "max_abs_density_difference": 0.1909637451171875,
+        "mean_abs_density_difference": 0.0012602791721909694
+      }
+    ],
+    "rangeland_b1_minus_shuffle": 0.03851547051073784,
+    "rangeland_ci": {
+      "lower": 0.033251572381827445,
+      "upper": 0.04393734588507195
+    },
+    "supported_leaf_difference": 0.08008222202399601,
+    "supported_leaf_ci": {
+      "lower": 0.06817252047558621,
+      "upper": 0.0920880890097385
+    },
+    "seedwise_rangeland_differences": [
+      0.039228518006493296,
+      0.03755282379533442,
+      0.03876506973038579
+    ]
+  },
+  "semantic_drone_gate_g3": {
+    "status": "pass",
+    "manifest_sha256": "f04fea758918d0409375a47229488561ad9a7fce1b8398c462c9546a1faae010",
+    "b1_minus_b0": 0.2271577637409872,
+    "b1_minus_b0_ci": {
+      "lower": 0.19985328620275483,
+      "upper": 0.2534773216609211
+    },
+    "b1_minus_e0": 0.20472272284287757,
+    "b1_minus_e0_ci": {
+      "lower": 0.1772416360748243,
+      "upper": 0.23145407452633768
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "flair-b1-raw-audit-v1",
+  "paired_raster_count": 525,
+  "identifier_set_sha256": "1bd07871de3c78e9481e6645b21c7e327c3abc16b3dc1943494a23934bdfd24c",
+  "image_shapes": [
+    [
+      512,
+      512,
+      5
+    ]
+  ],
+  "image_dtypes": [
+    "uint8"
+  ],
+  "image_channel_counts": [
+    5
+  ],
+  "mask_shapes": [
+    [
+      512,
+      512
+    ]
+  ],
+  "mask_dtypes": [
+    "uint8"
+  ],
+  "mask_values_pixel_counts": {
+    "1": 1340220,
+    "2": 6110408,
+    "3": 5727416,
+    "4": 786036,
+    "5": 15092052,
+    "6": 9055980,
+    "7": 32952720,
+    "8": 7993084,
+    "9": 14854660,
+    "10": 29788840,
+    "11": 11705068,
+    "12": 1989028,
+    "13": 14312,
+    "15": 215772,
+    "16": 4
+  },
+  "herbaceous_raw_id": 10,
+  "herbaceous_pixel_count": 29788840,
+  "herbaceous_pixel_fraction": 0.2164483933221726,
+  "image_root": "data\\raw\\flair_b1_toy\\D041_2021\\aerial",
+  "mask_root": "data\\raw\\flair_b1_toy\\D041_2021\\labels",
+  "image_glob": "**/IMG_*.tif",
+  "mask_glob": "**/MSK_*.tif",
+  "source_mapping_status": "source_audit_pending"
+}

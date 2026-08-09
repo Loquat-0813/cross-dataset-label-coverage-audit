@@ -1,0 +1,20 @@
+{
+  "audit_skill": "paper-claim-audit",
+  "verdict": "WARN",
+  "reason_code": "provenance_gaps_without_core_numeric_mismatch",
+  "summary": "Core primary, shuffle, Semantic Drone, B2, and E3 numerical claims match supplied evidence after standard rounding; protocol provenance remains incomplete in the compact evidence boundary.",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_reasoning": "ultra",
+  "details": {
+    "core_numeric_claims": "PASS",
+    "protocol_provenance": "WARN",
+    "numeric_contradictions": 0,
+    "headline_claims_verified": 7,
+    "remaining_actions": [
+      "include the full per-seed shuffle schedule records or a deterministic reconstruction manifest in the reviewer-access package",
+      "include the chronology and target-exposure ledger supporting the frozen-before-inference statements"
+    ]
+  }
+}
