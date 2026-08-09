@@ -1,0 +1,8 @@
+arm,backbone,adapter,updates,source_crops_per_update,loveda_crop_exposures_total,flair_crops_per_update,seeds,changed_factor,scientific_role,boundary
+E0,CLIP ViT-B/16,frozen no adapter,0,0,0,0,deterministic frozen checkpoint,No calibration,Secondary diagnostic only
+B0,CLIP ViT-B/16,rank-32 low-rank calibration,25220,2,50440,0,19|37|73,LoveDA-only source mixture,Primary fixed-budget baseline,No target selection
+B0-half,CLIP ViT-B/16,rank-32 low-rank calibration,25220,1,25220,0,19|37|73,LoveDA exposure,Exposure-matched control,One-example update
+B0-half-batch2,CLIP ViT-B/16,rank-32 low-rank calibration,25220,1 deterministic crop duplicated,25220,0,19|37|73,Batch representation only,Formal integrity check,Mean loss plus duplicate crop and no batch-dependent state
+B1,CLIP ViT-B/16,rank-32 low-rank calibration,25220,1,25220,1 raw-ID-10 FLAIR crop,19|37|73,Source mixture plus independently labeled herbaceous example,Primary coverage-completion arm,FLAIR imagery and labels enter jointly
+B2,CLIP ViT-B/16,rank-32 low-rank calibration,20 epochs,B2 optimization cities only,not applicable,OpenEarthMap direct rangeland supervision,19|37|73,Direct supervision within frozen city split,Direct-supervision control,16-city/595-raster subset is held-out B2 test population; not B1 selection
+E3,CLIP ViT-B/16,coverage-routing adapter,not headline,not applicable,not applicable,not applicable,secondary negative control,Source conformal routing,Negative control only,About 97.8 percent of eligible pixels in the four-raster OpenEarthMap smoke evaluation route to root

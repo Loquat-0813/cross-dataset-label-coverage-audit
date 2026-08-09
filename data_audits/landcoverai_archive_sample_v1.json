@@ -1,0 +1,263 @@
+{
+  "version": "archive-label-audit-v1",
+  "archive": "LandCoverAI.zip",
+  "label_prefix": "masks/",
+  "label_files_total": 41,
+  "sampled_label_files": 16,
+  "observed_label_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "observed_label_pixel_counts": {
+    "0": 752740178,
+    "1": 9305578,
+    "2": 373225616,
+    "3": 75464393,
+    "4": 19644015
+  },
+  "samples": [
+    {
+      "member": "masks/M-33-20-D-c-4-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9095,
+        9636
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-33-32-B-b-4-4.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9098,
+        9621
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-33-7-A-d-3-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9088,
+        9715
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-34-5-D-d-4-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8825,
+        9441
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-34-51-C-d-4-1.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8914,
+        9289
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-34-6-A-d-2-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8818,
+        9470
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-34-65-D-d-4-1.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9130,
+        9436
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/M-34-77-B-c-2-3.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9142,
+        9423
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-33-130-A-d-3-3.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8782,
+        9543
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-33-139-C-d-2-4.tif",
+      "values": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        9046,
+        9707
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-33-60-D-c-4-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        4136,
+        4701
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-34-106-A-b-3-4.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8808,
+        9692
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-34-140-A-b-4-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8873,
+        9586
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-34-140-A-d-4-2.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8889,
+        9587
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-34-77-A-b-1-4.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        8351,
+        9404
+      ],
+      "mode": "L"
+    },
+    {
+      "member": "masks/N-34-97-D-c-2-4.tif",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": [
+        4230,
+        4672
+      ],
+      "mode": "L"
+    }
+  ],
+  "scope": "Sample audit only. Run a complete raw-label audit after extraction before publishing metrics."
+}

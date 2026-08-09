@@ -1,0 +1,22 @@
+contrast,leaf,estimate,ci_lower,ci_upper,analysis_role,source
+B1-B0,built_structure,-0.019576,-0.048814,0.005547,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,transport_surface,-0.148178,-0.184531,-0.113413,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,woody_vegetation,-0.155402,-0.188001,-0.122461,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,herbaceous_vegetation,0.311761,0.282103,0.339855,primary target leaf,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,cropland,-0.200454,-0.249718,-0.149754,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,bare_surface,-0.050800,-0.109416,-0.001025,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,surface_water,-0.032489,-0.070992,0.006760,descriptive,flair_b1_oem_no_paris_bootstrap_summary.json
+B0-half-B0,built_structure,-0.009911,-0.012353,-0.007558,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,transport_surface,-0.001396,-0.003549,0.001048,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,woody_vegetation,-0.005538,-0.010122,-0.000468,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,herbaceous_vegetation,0.000000,0.000000,0.000000,primary target leaf,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,cropland,-0.006378,-0.015894,0.002125,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,bare_surface,0.007537,0.002466,0.012555,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-B0,surface_water,-0.032898,-0.044686,-0.020216,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,built_structure,-0.009665,-0.038292,0.015254,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,transport_surface,-0.146782,-0.183231,-0.111716,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,woody_vegetation,-0.149864,-0.182417,-0.118498,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,herbaceous_vegetation,0.311761,0.282103,0.339855,primary target leaf,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,cropland,-0.194076,-0.237927,-0.148511,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,bare_surface,-0.058337,-0.117595,-0.005500,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,surface_water,0.000408,-0.044234,0.047413,descriptive,flair_b0_half_oem_no_paris_bootstrap_summary.json

@@ -1,0 +1,2961 @@
+{
+  "ledger_version": "primary-archive-reconciliation-v1",
+  "generated_at": "2026-08-06T11:14:23.730976+00:00",
+  "archive_root": "archive\\P1_PRIMARY_EXECUTION_ARCHIVE_20260806_v2\\P1_PRIMARY_EXECUTION_ARCHIVE_20260806",
+  "archive_internal_manifest": "SHA256SUMS.txt",
+  "summary": {
+    "evidence_rows_checked": 109,
+    "verified_rows": 109,
+    "mismatched_rows": 0,
+    "fields_checked": 207,
+    "mismatched_fields": 0,
+    "verdict": "PASS"
+  },
+  "rows": [
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "configs/semantic_calibration_v0.yaml"
+      ],
+      "source_sha256": {
+        "configs/semantic_calibration_v0.yaml": "sha256:604d03e06c944d7a8f077d5f8177c83e58d60a0933b1d04748c45a973c715e46"
+      },
+      "method": "Frozen probe has no calibration updates.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": 0.0,
+          "archived_value": 0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/flair_b1_b0_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_seed19/run_config.json": "sha256:8d7beb585f681174df1ad984f5ee0d0d9df734c236c0beaf0db65783711fe13c"
+      },
+      "method": "Derived from archived run configuration and batch composition.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "source_crops_per_update",
+          "transcribed_value": 2.0,
+          "archived_value": 2,
+          "status": "match"
+        },
+        {
+          "field": "loveda_crop_exposures_total",
+          "transcribed_value": 50440.0,
+          "archived_value": 50440,
+          "status": "match"
+        },
+        {
+          "field": "flair_crops_per_update",
+          "transcribed_value": "0",
+          "archived_value": 0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/flair_b1_b0_half_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_half_seed19/run_config.json": "sha256:235b3a8536637718b8a8891b8a8bc3322c8f1c8545e6641aea4a026aab648b51"
+      },
+      "method": "Derived from archived run configuration and batch composition.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "source_crops_per_update",
+          "transcribed_value": 1.0,
+          "archived_value": 1,
+          "status": "match"
+        },
+        {
+          "field": "loveda_crop_exposures_total",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "flair_crops_per_update",
+          "transcribed_value": "0",
+          "archived_value": 0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/flair_b1_b0_half_batch2_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_half_batch2_seed19/run_config.json": "sha256:e2a0a7234f6a2012cd7fd13cce300af249049062da72889b8a7466f39c471719"
+      },
+      "method": "Derived from archived run configuration and batch composition.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "source_crops_per_update",
+          "transcribed_value": "1 deterministic crop duplicated",
+          "archived_value": "1 deterministic crop duplicated",
+          "status": "match"
+        },
+        {
+          "field": "loveda_crop_exposures_total",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "flair_crops_per_update",
+          "transcribed_value": "0",
+          "archived_value": 0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "outputs/flair_b1_b1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b1_seed19/run_config.json": "sha256:e7b2a0a00c2b1a39202864f6657ffde605249dace36210927278efd38a23b6d5"
+      },
+      "method": "Derived from archived run configuration and batch composition.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "source_crops_per_update",
+          "transcribed_value": 1.0,
+          "archived_value": 1,
+          "status": "match"
+        },
+        {
+          "field": "loveda_crop_exposures_total",
+          "transcribed_value": 25220.0,
+          "archived_value": 25220,
+          "status": "match"
+        },
+        {
+          "field": "flair_crops_per_update",
+          "transcribed_value": "1 raw-ID-10 FLAIR crop",
+          "archived_value": "1 raw-ID-10 FLAIR crop",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/run_config.json": "sha256:b080a49ca9d5e631f9ae0d2c1abd3a74fce87ab31c642ca6405a9e097193c887"
+      },
+      "method": "Direct comparison to the archived B2 epoch count.",
+      "checks": [
+        {
+          "field": "updates_as_epochs",
+          "transcribed_value": "20 epochs",
+          "archived_value": "20 epochs",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "arm_configuration_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "protocols/P1_COVERAGE_GUARD_IMPLEMENTATION_AMENDMENT_2026-08-02.md",
+        "outputs/e3_coverage_guard_openearthmap_smoke_v2/metrics.json"
+      ],
+      "source_sha256": {
+        "protocols/P1_COVERAGE_GUARD_IMPLEMENTATION_AMENDMENT_2026-08-02.md": "sha256:7d367c8fe8e900ceab580839426721f52dc7c567f25449fe76ece424355f5001",
+        "outputs/e3_coverage_guard_openearthmap_smoke_v2/metrics.json": "sha256:b1a8cb8a1522e4216957cf3628b80242112cfa61c1dc6fe2d10f1749c35f46d0"
+      },
+      "method": "Negative-control arm is protocol-defined and excluded from headline training comparisons.",
+      "checks": [
+        {
+          "field": "updates",
+          "transcribed_value": "not headline",
+          "archived_value": "not headline",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "b2_direct_supervision_20260806.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/metrics.json",
+        "outputs/b2_openearthmap_e1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/metrics.json": "sha256:9a3d1a3c8265fd9cea53300249a6828559e87a02f37be653557c1dd5c5656415",
+        "outputs/b2_openearthmap_e1_seed19/run_config.json": "sha256:b080a49ca9d5e631f9ae0d2c1abd3a74fce87ab31c642ca6405a9e097193c887"
+      },
+      "method": "Direct fields from the archived B2 held-out metrics.",
+      "checks": [
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.39344288999147853,
+          "archived_value": 0.39344288999147853,
+          "status": "match"
+        },
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.5206919473039879,
+          "archived_value": 0.5206919473039879,
+          "status": "match"
+        },
+        {
+          "field": "test_rasters",
+          "transcribed_value": 595.0,
+          "archived_value": 595,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "b2_direct_supervision_20260806.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed37/metrics.json",
+        "outputs/b2_openearthmap_e1_seed37/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed37/metrics.json": "sha256:52d40f4ed0b2af296ed35a431d5a00517acb1d3dc18ea90b40339e2d50c5d414",
+        "outputs/b2_openearthmap_e1_seed37/run_config.json": "sha256:3fe6b3f3f07d3329fe7b5bf586df85912797282e2865c4495f9cbf6807f9017b"
+      },
+      "method": "Direct fields from the archived B2 held-out metrics.",
+      "checks": [
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.3889750143400203,
+          "archived_value": 0.3889750143400203,
+          "status": "match"
+        },
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.5290992539457616,
+          "archived_value": 0.5290992539457616,
+          "status": "match"
+        },
+        {
+          "field": "test_rasters",
+          "transcribed_value": 595.0,
+          "archived_value": 595,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "b2_direct_supervision_20260806.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed73/metrics.json",
+        "outputs/b2_openearthmap_e1_seed73/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed73/metrics.json": "sha256:a67bc81190903ae422b7f1bd60a6b7081e05af2c63c3817ad5a6922d6f40a2ec",
+        "outputs/b2_openearthmap_e1_seed73/run_config.json": "sha256:55fa56fc7565a9efbab07de9d60cb2a498f701a7bea5187872e40f99a8d1bc54"
+      },
+      "method": "Direct fields from the archived B2 held-out metrics.",
+      "checks": [
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.3776265417196102,
+          "archived_value": 0.3776265417196102,
+          "status": "match"
+        },
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.5108109165513326,
+          "archived_value": 0.5108109165513326,
+          "status": "match"
+        },
+        {
+          "field": "test_rasters",
+          "transcribed_value": 595.0,
+          "archived_value": 595,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "b2_direct_supervision_20260806.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/metrics.json",
+        "outputs/b2_openearthmap_e1_seed37/metrics.json",
+        "outputs/b2_openearthmap_e1_seed73/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/metrics.json": "sha256:9a3d1a3c8265fd9cea53300249a6828559e87a02f37be653557c1dd5c5656415",
+        "outputs/b2_openearthmap_e1_seed37/metrics.json": "sha256:52d40f4ed0b2af296ed35a431d5a00517acb1d3dc18ea90b40339e2d50c5d414",
+        "outputs/b2_openearthmap_e1_seed73/metrics.json": "sha256:a67bc81190903ae422b7f1bd60a6b7081e05af2c63c3817ad5a6922d6f40a2ec"
+      },
+      "method": "Arithmetic mean recomputed from the three archived held-out metrics files.",
+      "checks": [
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.38668148201703634,
+          "archived_value": 0.38668148201703634,
+          "status": "match"
+        },
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.520200705933694,
+          "archived_value": 0.520200705933694,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "b2_direct_supervision_bootstrap_20260806.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/b2_openearthmap_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_bootstrap_summary.json": "sha256:9fdba92fc57a8dea5127a9d5cdc67cb37a1205621544f6530d29127b74db6f31"
+      },
+      "method": "Direct fields from the archived B2 city-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.376292,
+          "archived_value": 0.3762923871524247,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.343018,
+          "archived_value": 0.34301780110221114,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.40302,
+          "archived_value": 0.403020181178671,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.311761,
+          "archived_value": 0.3117611460992006,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.282103,
+          "archived_value": 0.28210301012274785,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.339855,
+          "archived_value": 0.339854602496308,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.042163,
+          "archived_value": -0.0421625855533333,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/flair_supported_leaf_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_supported_leaf_bootstrap_summary.json": "sha256:642dc932bee7e4ecc676e70f0e62a0879c2df608223efbf9ae8499bd31e5928f"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.10115,
+          "archived_value": -0.10114987416208893,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.121276,
+          "archived_value": -0.12127595031339952,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.082108,
+          "archived_value": -0.08210833882923758,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.006941,
+          "archived_value": -0.006940505586884416,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.010008,
+          "archived_value": -0.010007643985387057,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.003804,
+          "archived_value": -0.003804389889808211,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.035222,
+          "archived_value": -0.03522207996644888,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.053812,
+          "archived_value": -0.05381182553419996,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.018212,
+          "archived_value": -0.01821186960393061,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "outputs/flair_batch_control_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_batch_control_summary.json": "sha256:c6bdb65676719ad80cd3d9fd0402c64e177c3936c5cd641e6f12a2caf02e76c3"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_contrasts_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "outputs/flair_batch_control_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_batch_control_summary.json": "sha256:c6bdb65676719ad80cd3d9fd0402c64e177c3936c5cd641e6f12a2caf02e76c3"
+      },
+      "method": "Direct field(s) from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.311761,
+          "archived_value": 0.31176119962271587,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.281944,
+          "archived_value": 0.28194377089895967,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.339921,
+          "archived_value": 0.33992114061045225,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.019576,
+          "archived_value": -0.019575980695054063,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.048814,
+          "archived_value": -0.048813924348977036,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.005547,
+          "archived_value": 0.005546887849560857,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.148178,
+          "archived_value": -0.1481780735796438,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.184531,
+          "archived_value": -0.18453051499003667,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.113413,
+          "archived_value": -0.11341255262055601,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.155402,
+          "archived_value": -0.1554021166828285,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.188001,
+          "archived_value": -0.18800124091461334,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.122461,
+          "archived_value": -0.12246129225485396,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.311761,
+          "archived_value": 0.3117611460992006,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.282103,
+          "archived_value": 0.28210301012274785,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.339855,
+          "archived_value": 0.339854602496308,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.200454,
+          "archived_value": -0.20045416460940502,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.249718,
+          "archived_value": -0.24971755699047773,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.149754,
+          "archived_value": -0.1497539677785969,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.0508,
+          "archived_value": -0.050799561380310956,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.109416,
+          "archived_value": -0.10941645140105828,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.001025,
+          "archived_value": -0.0010251843335219424,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.032489,
+          "archived_value": -0.032489348025291354,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.070992,
+          "archived_value": -0.070991826017759,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.00676,
+          "archived_value": 0.0067598221414832006,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 9,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.009911,
+          "archived_value": -0.009911018436649877,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.012353,
+          "archived_value": -0.012353005218227714,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.007558,
+          "archived_value": -0.0075576477893664834,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 10,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.001396,
+          "archived_value": -0.0013956553853210485,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.003549,
+          "archived_value": -0.003549234779471361,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.001048,
+          "archived_value": 0.0010478831475073042,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 11,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.005538,
+          "archived_value": -0.005538204712839612,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.010122,
+          "archived_value": -0.010121733472025241,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.000468,
+          "archived_value": -0.0004682237619927058,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 12,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.0,
+          "archived_value": -5.352351530267294e-08,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.0,
+          "archived_value": -1.7244651637268854e-07,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 13,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.006378,
+          "archived_value": -0.00637797266700002,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.015894,
+          "archived_value": -0.015893617177184426,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.002125,
+          "archived_value": 0.002125047006874822,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 14,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.007537,
+          "archived_value": 0.007537039964264858,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.002466,
+          "archived_value": 0.0024662316984453885,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.012555,
+          "archived_value": 0.012555312187698665,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 15,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.032898,
+          "archived_value": -0.03289767434712998,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.044686,
+          "archived_value": -0.044686178776616466,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.020216,
+          "archived_value": -0.020215560660969172,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 16,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.009665,
+          "archived_value": -0.009664962258404186,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.038292,
+          "archived_value": -0.038291507205803224,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.015254,
+          "archived_value": 0.015254198385028834,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 17,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.146782,
+          "archived_value": -0.14678241819432275,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.183231,
+          "archived_value": -0.18323133492407792,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.111716,
+          "archived_value": -0.11171602184938911,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 18,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.149864,
+          "archived_value": -0.14986391196998888,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.182417,
+          "archived_value": -0.1824168240573391,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.118498,
+          "archived_value": -0.11849827945183279,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 19,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.311761,
+          "archived_value": 0.31176119962271587,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.282103,
+          "archived_value": 0.28210301203261606,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.339855,
+          "archived_value": 0.33985473875344174,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 20,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.194076,
+          "archived_value": -0.194076191942405,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.237927,
+          "archived_value": -0.23792702499909166,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.148511,
+          "archived_value": -0.14851125584147537,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 21,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.058337,
+          "archived_value": -0.058336601344575814,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.117595,
+          "archived_value": -0.11759531482890019,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.0055,
+          "archived_value": -0.005500072070451033,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_leaf_contrasts_20260805.csv",
+      "row_number": 22,
+      "source_files": [
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b0_half_oem_no_paris_bootstrap_summary.json": "sha256:a34e58e71c9f9d3e34b5bce639f1b7575b6c256acb41f7130368a89a95c3edd0"
+      },
+      "method": "Direct per-leaf fields from the archived paired-bootstrap summary.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.000408,
+          "archived_value": 0.0004083263218386257,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.044234,
+          "archived_value": -0.04423431715793865,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.047413,
+          "archived_value": 0.0474131408259397,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/flair_b1_b0_oem_no_paris_seed19/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_oem_no_paris_seed19/metrics.json": "sha256:9a7d92692ebb20d900c90e9251a6dd90a9c53afde1f1097201d13e4a1c2d67eb"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.382958,
+          "archived_value": 0.3829581828795648,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 1.60571e-07,
+          "archived_value": 1.6057054590801882e-07,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/flair_b1_b1_oem_no_paris_seed19/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b1_oem_no_paris_seed19/metrics.json": "sha256:2b2e070c831cf043642393699c7e7cfa7e8a9fb2c35a2b0ad5fb19596e997882"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.339969,
+          "archived_value": 0.33996929302489215,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.312425754195,
+          "archived_value": 0.3124257541945148,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/flair_b1_b0_oem_no_paris_seed37/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_oem_no_paris_seed37/metrics.json": "sha256:c23ba0a848ef33698e0c0c3ee1443354dbdfcd3016d383509aa0b19885cefda0"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.38022,
+          "archived_value": 0.38022049456317475,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/flair_b1_b1_oem_no_paris_seed37/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b1_oem_no_paris_seed37/metrics.json": "sha256:77a43aa3046deaeae6ed1fd438ce55b2cfd13f21356fe2f92b07b503d386d365"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.329173,
+          "archived_value": 0.3291730573785113,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.31874452393,
+          "archived_value": 0.3187445239297962,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "outputs/flair_b1_b0_oem_no_paris_seed73/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_oem_no_paris_seed73/metrics.json": "sha256:d233d1440956ced0c760ef79ab639cd9438264ee47788d9e60a8d1a3f08d9b74"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.373597,
+          "archived_value": 0.3735971838648931,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "outputs/flair_b1_b1_oem_no_paris_seed73/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b1_oem_no_paris_seed73/metrics.json": "sha256:1d827ea41b316fee140e2f54af2fc2bfaef55ec3ce62fcfdc2b18b236d18d251"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.341146,
+          "archived_value": 0.34114575424422916,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.304113320744,
+          "archived_value": 0.3041133207438367,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "outputs/flair_b1_b0_half_oem_no_paris_seed19/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_half_oem_no_paris_seed19/metrics.json": "sha256:98d07a6332cc223ce77307d3579e85606e0a0f90f64b5390fdf87088029cd91d"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.365225,
+          "archived_value": 0.3652253674222064,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 9,
+      "source_files": [
+        "outputs/flair_b1_b0_half_oem_no_paris_seed37/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_half_oem_no_paris_seed37/metrics.json": "sha256:0108eedf64fe6728254588e6646597dab90c3ec15e159ad86c503f4a5fff5147"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.38247,
+          "archived_value": 0.38246971335921087,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "oem_seed_metrics_20260805.csv",
+      "row_number": 10,
+      "source_files": [
+        "outputs/flair_b1_b0_half_oem_no_paris_seed73/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_b0_half_oem_no_paris_seed73/metrics.json": "sha256:47d23cd7a710475b6333f022307250622f0c41628f6d747681ed5e4587820d53"
+      },
+      "method": "Original replay log transcription checked against the archived per-seed metrics JSON.",
+      "checks": [
+        {
+          "field": "mean_iou",
+          "transcribed_value": 0.368259,
+          "archived_value": 0.368259263765562,
+          "status": "match"
+        },
+        {
+          "field": "rangeland_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json": "sha256:7d32e85e446e7ce19726df7a1cebce7204075799c7380d2993e2333657601a91"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.022435,
+          "archived_value": 0.022435040898109618,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json": "sha256:7d32e85e446e7ce19726df7a1cebce7204075799c7380d2993e2333657601a91"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        },
+        {
+          "field": "contrast_estimate",
+          "transcribed_value": -0.022435,
+          "archived_value": -0.022435040898109618,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.025257,
+          "archived_value": -0.025257438674600962,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.019845,
+          "archived_value": -0.019844966937711917,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json": "sha256:7d32e85e446e7ce19726df7a1cebce7204075799c7380d2993e2333657601a91"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.228181,
+          "archived_value": 0.22818074245499229,
+          "status": "match"
+        },
+        {
+          "field": "contrast_estimate",
+          "transcribed_value": 0.228181,
+          "archived_value": 0.22818074245499229,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.201272,
+          "archived_value": 0.20127164382584556,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.253905,
+          "archived_value": 0.2539053247031791,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json": "sha256:607a06b484e629567db2fdee06c26b72b2ab69e4ed6dd70519481c04b1ebb08d"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.022449,
+          "archived_value": 0.022449330623830612,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json": "sha256:607a06b484e629567db2fdee06c26b72b2ab69e4ed6dd70519481c04b1ebb08d"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.0,
+          "archived_value": 0.0,
+          "status": "match"
+        },
+        {
+          "field": "contrast_estimate",
+          "transcribed_value": -0.022449,
+          "archived_value": -0.022449330623830612,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.025262,
+          "archived_value": -0.02526229707680982,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.019889,
+          "archived_value": -0.019889447399588048,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "semantic_drone_summary_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_396_exploratory.json": "sha256:607a06b484e629567db2fdee06c26b72b2ab69e4ed6dd70519481c04b1ebb08d"
+      },
+      "method": "Direct fields from the archived Semantic Drone bootstrap summary.",
+      "checks": [
+        {
+          "field": "grass_iou",
+          "transcribed_value": 0.228494,
+          "archived_value": 0.22849350092211226,
+          "status": "match"
+        },
+        {
+          "field": "contrast_estimate",
+          "transcribed_value": 0.228494,
+          "archived_value": 0.22849350092211226,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": 0.201405,
+          "archived_value": 0.20140511920801782,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": 0.255207,
+          "archived_value": 0.25520739946418003,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "diagnostic_boundaries_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "outputs/e0_b0_oem_b2test_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/e0_b0_oem_b2test_bootstrap_summary.json": "sha256:32a7bcc5db102814be316b150d423873db4ca14ec2557e9757a970fe8c37726f"
+      },
+      "method": "Direct field(s) from the archived diagnostic result.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": -0.010389,
+          "archived_value": -0.010388870078994512,
+          "status": "match"
+        },
+        {
+          "field": "ci_lower",
+          "transcribed_value": -0.014148,
+          "archived_value": -0.014148364654466696,
+          "status": "match"
+        },
+        {
+          "field": "ci_upper",
+          "transcribed_value": -0.007013,
+          "archived_value": -0.007012595720700456,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "diagnostic_boundaries_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "outputs/e3_coverage_guard_openearthmap_smoke_v2/metrics.json"
+      ],
+      "source_sha256": {
+        "outputs/e3_coverage_guard_openearthmap_smoke_v2/metrics.json": "sha256:b1a8cb8a1522e4216957cf3628b80242112cfa61c1dc6fe2d10f1749c35f46d0"
+      },
+      "method": "Direct field(s) from the archived diagnostic result.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.977932,
+          "archived_value": 0.9779315074518099,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "diagnostic_boundaries_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "outputs/flair_b1_oem_b2test_semantic_allocation.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_b2test_semantic_allocation.json": "sha256:2c6e9aa9d4a13c05e7cb8ced77364f8a9144bf8458aa708e429619eff695cbd8"
+      },
+      "method": "Direct field(s) from the archived diagnostic result.",
+      "checks": [
+        {
+          "field": "estimate",
+          "transcribed_value": 0.317735,
+          "archived_value": 0.31773474198724133,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "dataset_support_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "configs/loveda_data_v0.yaml"
+      ],
+      "source_sha256": {
+        "configs/loveda_data_v0.yaml": "sha256:10617ad7e567bae451968d05b0c4d217430504d3fb0024acbc2d57b244492378"
+      },
+      "method": "Archived audit/configuration record confirms the stated population.",
+      "checks": [
+        {
+          "field": "pair_count_or_population",
+          "transcribed_value": "2522 training pairs",
+          "archived_value": "2522 training pairs",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "dataset_support_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "audits/flair_b1_full_raw_audit_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_full_raw_audit_2026-08-03.json": "sha256:66b1941ef8641648d4dd44d0a05228332012469462805b9e18aa364d5b3fc8be"
+      },
+      "method": "Archived audit/configuration record confirms the stated population.",
+      "checks": [
+        {
+          "field": "pair_count_or_population",
+          "transcribed_value": "47712 training pairs",
+          "archived_value": "47712 training pairs",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "dataset_support_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "audits/flair_b1_source_ready_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_source_ready_2026-08-03.json": "sha256:031d2b9b9d11d248e86172f8e23b22173d8e59ceae9a0f797491a0f3c02caf23"
+      },
+      "method": "Archived audit/configuration record confirms the stated population.",
+      "checks": [
+        {
+          "field": "pair_count_or_population",
+          "transcribed_value": "74 Paris-excluded cities / 2638 eligible pairs",
+          "archived_value": "74 Paris-excluded cities / 2638 eligible pairs",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "dataset_support_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "audits/semantic_drone_confirmation_manifest_20260804.json"
+      ],
+      "source_sha256": {
+        "audits/semantic_drone_confirmation_manifest_20260804.json": "sha256:f04fea758918d0409375a47229488561ad9a7fce1b8398c462c9546a1faae010"
+      },
+      "method": "Archived audit/configuration record confirms the stated population.",
+      "checks": [
+        {
+          "field": "pair_count_or_population",
+          "transcribed_value": "400 frozen-manifest rasters",
+          "archived_value": "400 frozen-manifest rasters",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "built_structure",
+          "archived_value": "built_structure",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "transport_surface",
+          "archived_value": "transport_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "woody_vegetation",
+          "archived_value": "woody_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "herbaceous_vegetation",
+          "archived_value": "herbaceous_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "cropland",
+          "archived_value": "cropland",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "bare_surface",
+          "archived_value": "bare_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "surface_water",
+          "archived_value": "surface_water",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 9,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "built_structure",
+          "archived_value": "built_structure",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 10,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "transport_surface",
+          "archived_value": "transport_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 11,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "woody_vegetation",
+          "archived_value": "woody_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 12,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "herbaceous_vegetation",
+          "archived_value": "herbaceous_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 13,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "cropland",
+          "archived_value": "cropland",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 14,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "bare_surface",
+          "archived_value": "bare_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 15,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "surface_water",
+          "archived_value": "surface_water",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 16,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "built_structure",
+          "archived_value": "built_structure",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 17,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "transport_surface",
+          "archived_value": "transport_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 18,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "woody_vegetation",
+          "archived_value": "woody_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 19,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "herbaceous_vegetation",
+          "archived_value": "herbaceous_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 20,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "cropland",
+          "archived_value": "cropland",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 21,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "bare_surface",
+          "archived_value": "bare_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 22,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "surface_water",
+          "archived_value": "surface_water",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 23,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "built_structure",
+          "archived_value": "built_structure",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 24,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "transport_surface",
+          "archived_value": "transport_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 25,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "woody_vegetation",
+          "archived_value": "woody_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 26,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "herbaceous_vegetation",
+          "archived_value": "herbaceous_vegetation",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 27,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "cropland",
+          "archived_value": "cropland",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 28,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "bare_surface",
+          "archived_value": "bare_surface",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "coverage_matrix_20260805.csv",
+      "row_number": 29,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d",
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Categorical crosswalk row retained verbatim; mappings are archived.",
+      "checks": [
+        {
+          "field": "canonical_leaf",
+          "transcribed_value": "surface_water",
+          "archived_value": "surface_water",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 2,
+      "source_files": [
+        "ontology/land_cover_taxonomy_v0.yaml"
+      ],
+      "source_sha256": {
+        "ontology/land_cover_taxonomy_v0.yaml": "sha256:a1b2f63e37319518e8c5f04dd408e0954fd5941c7804feeb200dee1092925e54"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "land-cover-taxonomy-v0",
+          "archived_value": "land-cover-taxonomy-v0",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 3,
+      "source_files": [
+        "ontology/dataset_label_mappings_v0.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_v0.yaml": "sha256:cd92e8cb472bd74125b235d5e5f0ff5926613c323183f133d2c285e3debec12d"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "dataset-label-mappings-v0",
+          "archived_value": "dataset-label-mappings-v0",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 4,
+      "source_files": [
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml"
+      ],
+      "source_sha256": {
+        "ontology/dataset_label_mappings_flair_b1_v1.yaml": "sha256:a817fae62d7c5bcc7c8d5eb7001986420c2f2e32dfc337d8097f6be95c723c37"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "dataset-label-mappings-flair-b1-v1",
+          "archived_value": "dataset-label-mappings-flair-b1-v1",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 5,
+      "source_files": [
+        "configs/taxonomy_prompts_v0.yaml"
+      ],
+      "source_sha256": {
+        "configs/taxonomy_prompts_v0.yaml": "sha256:586ff2ddea25aed59f8f776d5d51192b0cfbebd6c544ae250468b56fdbcadd37"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "taxonomy-prompts-v0",
+          "archived_value": "taxonomy-prompts-v0",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 6,
+      "source_files": [
+        "audits/flair_b1_full_raw_audit_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_full_raw_audit_2026-08-03.json": "sha256:66b1941ef8641648d4dd44d0a05228332012469462805b9e18aa364d5b3fc8be"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "61712",
+          "archived_value": 61712,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 7,
+      "source_files": [
+        "audits/flair_b1_full_raw_audit_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_full_raw_audit_2026-08-03.json": "sha256:66b1941ef8641648d4dd44d0a05228332012469462805b9e18aa364d5b3fc8be"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "1 through 19",
+          "archived_value": "1 through 19",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 8,
+      "source_files": [
+        "audits/flair_b1_full_raw_audit_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_full_raw_audit_2026-08-03.json": "sha256:66b1941ef8641648d4dd44d0a05228332012469462805b9e18aa364d5b3fc8be"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "2886249939",
+          "archived_value": 2886249939,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 9,
+      "source_files": [
+        "audits/flair_b1_full_source_manifest_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_full_source_manifest_2026-08-03.json": "sha256:98bb38b221abdbea5a22c75774589366de741615ce4402828c27bdc74d7f4fe6"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "98BB38B221ABDBEA5A22C75774589366DE741615CE4402828C27BDC74D7F4FE6",
+          "archived_value": "98BB38B221ABDBEA5A22C75774589366DE741615CE4402828C27BDC74D7F4FE6",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 10,
+      "source_files": [
+        "audits/flair_b1_source_ready_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_source_ready_2026-08-03.json": "sha256:031d2b9b9d11d248e86172f8e23b22173d8e59ceae9a0f797491a0f3c02caf23"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "2687",
+          "archived_value": 2687,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 11,
+      "source_files": [
+        "audits/flair_b1_source_ready_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_source_ready_2026-08-03.json": "sha256:031d2b9b9d11d248e86172f8e23b22173d8e59ceae9a0f797491a0f3c02caf23"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "2638",
+          "archived_value": 2638,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 12,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/run_config.json": "sha256:b080a49ca9d5e631f9ae0d2c1abd3a74fce87ab31c642ca6405a9e097193c887"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "16",
+          "archived_value": 16,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 13,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/run_config.json": "sha256:b080a49ca9d5e631f9ae0d2c1abd3a74fce87ab31c642ca6405a9e097193c887"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "595",
+          "archived_value": 595,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 14,
+      "source_files": [
+        "outputs/b2_openearthmap_e1_seed19/run_config.json"
+      ],
+      "source_sha256": {
+        "outputs/b2_openearthmap_e1_seed19/run_config.json": "sha256:b080a49ca9d5e631f9ae0d2c1abd3a74fce87ab31c642ca6405a9e097193c887"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "197a41e375d9e4cd1f1c56dd550ec43cdfd5da142baac6658e897a1350bd1d78",
+          "archived_value": "197a41e375d9e4cd1f1c56dd550ec43cdfd5da142baac6658e897a1350bd1d78",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 15,
+      "source_files": [
+        "audits/semantic_drone_full_raw_audit_20260804.json"
+      ],
+      "source_sha256": {
+        "audits/semantic_drone_full_raw_audit_20260804.json": "sha256:407230bfd91f94ae7fc95fa83dec73447ec420da185d62adc5f81d906c7b56b8"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "426427ce836c495dc85a7d857b64d6cae519a4dc82150c6fe11c22ddf5c2cbf1",
+          "archived_value": "426427ce836c495dc85a7d857b64d6cae519a4dc82150c6fe11c22ddf5c2cbf1",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 16,
+      "source_files": [
+        "audits/semantic_drone_full_raw_audit_20260804.json"
+      ],
+      "source_sha256": {
+        "audits/semantic_drone_full_raw_audit_20260804.json": "sha256:407230bfd91f94ae7fc95fa83dec73447ec420da185d62adc5f81d906c7b56b8"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "400",
+          "archived_value": 400,
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 17,
+      "source_files": [
+        "audits/semantic_drone_confirmation_manifest_20260804.json"
+      ],
+      "source_sha256": {
+        "audits/semantic_drone_confirmation_manifest_20260804.json": "sha256:f04fea758918d0409375a47229488561ad9a7fce1b8398c462c9546a1faae010"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "e0e22d90392a5997299f44d7e02ca94a626c6c0e996ebebb9769e81a2762504d",
+          "archived_value": "e0e22d90392a5997299f44d7e02ca94a626c6c0e996ebebb9769e81a2762504d",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 18,
+      "source_files": [
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/flair_b1_oem_no_paris_bootstrap_summary.json": "sha256:1612a9f47f65590855ed7e572f1e0baf86b4b039df8df0fd9709cd42cc11fff9"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "2000 paired city resamples; seed 20260803; percentile 95%",
+          "archived_value": "2000 paired city resamples; seed 20260803; percentile 95%",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 19,
+      "source_files": [
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json"
+      ],
+      "source_sha256": {
+        "outputs/semantic_drone_confirmation_bootstrap_summary.json": "sha256:7d32e85e446e7ce19726df7a1cebce7204075799c7380d2993e2333657601a91"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "2000 paired raster resamples; seed 20260804; percentile 95%",
+          "archived_value": "2000 paired raster resamples; seed 20260804; percentile 95%",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    },
+    {
+      "evidence_file": "protocol_metadata_20260805.csv",
+      "row_number": 20,
+      "source_files": [
+        "audits/flair_b1_source_ready_2026-08-03.json"
+      ],
+      "source_sha256": {
+        "audits/flair_b1_source_ready_2026-08-03.json": "sha256:031d2b9b9d11d248e86172f8e23b22173d8e59ceae9a0f797491a0f3c02caf23"
+      },
+      "method": "Recorded protocol/audit metadata checked against the archived source record.",
+      "checks": [
+        {
+          "field": "value",
+          "transcribed_value": "Paris exclusion is conservative source-country guard",
+          "archived_value": "Paris exclusion is conservative source-country guard",
+          "status": "match"
+        }
+      ],
+      "status": "verified",
+      "note": ""
+    }
+  ]
+}

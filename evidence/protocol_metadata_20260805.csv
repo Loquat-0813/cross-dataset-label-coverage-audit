@@ -1,0 +1,20 @@
+record,field,value,source,local_verification_or_boundary
+taxonomy,version,land-cover-taxonomy-v0,ontology/land_cover_taxonomy_v0.yaml,SHA256 A1B2F63E37319518E8C5F04DD408E0954FD5941C7804FEEB200DEE1092925E54
+LoveDA_mapping,version,dataset-label-mappings-v0,ontology/dataset_label_mappings_v0.yaml,SHA256 CD92E8CB472BD74125B235D5E5F0FF5926613C323183F133D2C285E3DEBEC12D
+FLAIR_mapping,version,dataset-label-mappings-flair-b1-v1,ontology/dataset_label_mappings_flair_b1_v1.yaml,SHA256 A817FAE62D7C5BCC7C8D5EB7001986420C2F2E32DFC337D8097F6BE95C723C37
+prompt_config,version,taxonomy-prompts-v0,configs/taxonomy_prompts_v0.yaml,SHA256 586FF2DDEA25AED59F8F776D5D51192B0CFBEBD6C544AE250468B56FDBCADD37
+FLAIR_raw_audit,pair_count,61712,audits/flair_b1_full_raw_audit_2026-08-03.json,SHA256 66B1941EF8641648D4DD44D0A05228332012469462805B9E18AA364D5B3FC8BE canonical archive copy; local Windows serialization differs only in path separators
+FLAIR_raw_audit,raw_values,1 through 19,audits/flair_b1_full_raw_audit_2026-08-03.json,Raw ID 10 is the only B1 supervision class
+FLAIR_raw_audit,herbaceous_pixels,2886249939,audits/flair_b1_full_raw_audit_2026-08-03.json,Train 47712 pairs; validation 14000 pairs
+FLAIR_source_manifest,identifier_hash,98BB38B221ABDBEA5A22C75774589366DE741615CE4402828C27BDC74D7F4FE6,audits/flair_b1_full_source_manifest_2026-08-03.json,Local source-manifest file SHA256
+OEM_raw_audit,paired_rasters,2687,console record and protocol,813 label-only masks excluded because RGB is absent
+OEM_primary_population,eligible_pairs,2638,flair_b1_source_ready_2026-08-03.json,Paris exclusion removes 49 pairs; 74 cities remain
+B2_manifest,city_count,16,protocols/P1_B1_B2_TARGET_ALIGNMENT_ANALYSIS_AMENDMENT_2026-08-04.md,Paris-free strict subset of primary 74-city population
+B2_manifest,paired_rasters,595,protocols/P1_B1_B2_TARGET_ALIGNMENT_ANALYSIS_AMENDMENT_2026-08-04.md,Manifest was frozen 2026-08-02 before B2 training
+B2_manifest,city_set_sha256,197a41e375d9e4cd1f1c56dd550ec43cdfd5da142baac6658e897a1350bd1d78,protocols/P1_PREWRITING_EVIDENCE_AND_SUBMISSION_GATES_2026-08-05.md,Original city_split.json archive still required before submission
+Semantic_Drone_archive,archive_sha256,426427ce836c495dc85a7d857b64d6cae519a4dc82150c6fe11c22ddf5c2cbf1,protocols/P1_SEMANTIC_DRONE_CONFIRMATION_RESULT_AMENDMENT_2026-08-04.md,Official archive retained locally under source terms
+Semantic_Drone_raw_audit,paired_rasters,400,protocols/P1_SEMANTIC_DRONE_CONFIRMATION_RESULT_AMENDMENT_2026-08-04.md,Grass pixel fraction 0.19983080
+Semantic_Drone_manifest,identifier_set_sha256,e0e22d90392a5997299f44d7e02ca94a626c6c0e996ebebb9769e81a2762504d,protocols/P1_SEMANTIC_DRONE_CONFIRMATION_RESULT_AMENDMENT_2026-08-04.md,Four smoke IDs 000 through 003 disclosed
+OEM_bootstrap,configuration,2000 paired city resamples; seed 20260803; percentile 95%,scripts/evaluate_openearthmap_flair_b1_replay.py,Conditions on completed checkpoints and resamples cities
+Semantic_Drone_bootstrap,configuration,2000 paired raster resamples; seed 20260804; percentile 95%,scripts/summarize_semantic_drone_confirmation_bootstrap.py,Conditions on seed-19 checkpoints and resamples rasters
+geographic_overlap,boundary,Paris exclusion is conservative source-country guard,protocols/P1_B1_FLAIR_COVERAGE_COMPLETION_AMENDMENT_2026-08-03.md,FLAIR GeoTIFFs lack usable geographic tags; no broader non-overlap claim

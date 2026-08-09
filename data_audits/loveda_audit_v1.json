@@ -1,0 +1,71 @@
+{
+  "version": "loveda-audit-v1",
+  "splits": {
+    "train": {
+      "samples": 2522,
+      "missing_masks": [],
+      "extra_masks": [],
+      "image_sizes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "mask_sizes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "image_modes": [
+        "RGB"
+      ],
+      "mask_modes": [
+        "L"
+      ],
+      "mask_values_pixel_counts": {
+        "0": 99632059,
+        "1": 910708330,
+        "2": 281493525,
+        "3": 134119839,
+        "4": 162729743,
+        "5": 132748857,
+        "6": 409074984,
+        "7": 514001335
+      }
+    },
+    "val": {
+      "samples": 1669,
+      "missing_masks": [],
+      "extra_masks": [],
+      "image_sizes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "mask_sizes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "image_modes": [
+        "RGB"
+      ],
+      "mask_modes": [
+        "L"
+      ],
+      "mask_values_pixel_counts": {
+        "0": 45777073,
+        "1": 615250682,
+        "2": 122805791,
+        "3": 79590500,
+        "4": 199567816,
+        "5": 74383133,
+        "6": 125615647,
+        "7": 487082702
+      }
+    }
+  }
+}

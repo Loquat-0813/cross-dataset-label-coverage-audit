@@ -1,0 +1,7 @@
+population,arm,grass_iou,contrast,contrast_estimate,ci_lower,ci_upper,unit,n,analysis_role,source
+primary_400,E0,0.022435,NA,NA,NA,NA,raster,400,checkpoint-specific diagnostic,semantic_drone_confirmation_bootstrap_summary.json
+primary_400,B0,0.000000,B0-E0,-0.022435,-0.025257,-0.019845,raster,400,checkpoint-specific diagnostic,semantic_drone_confirmation_bootstrap_summary.json
+primary_400,B1,0.228181,B1-B0,0.228181,0.201272,0.253905,raster,400,primary second-target evaluation,semantic_drone_confirmation_bootstrap_summary.json
+exploratory_396,E0,0.022449,NA,NA,NA,NA,raster,396,exploratory smoke-exclusion sensitivity,semantic_drone_confirmation_bootstrap_396_exploratory.json
+exploratory_396,B0,0.000000,B0-E0,-0.022449,-0.025262,-0.019889,raster,396,exploratory smoke-exclusion sensitivity,semantic_drone_confirmation_bootstrap_396_exploratory.json
+exploratory_396,B1,0.228494,B1-B0,0.228494,0.201405,0.255207,raster,396,exploratory smoke-exclusion sensitivity,semantic_drone_confirmation_bootstrap_396_exploratory.json

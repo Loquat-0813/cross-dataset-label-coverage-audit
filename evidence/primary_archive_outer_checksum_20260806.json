@@ -1,0 +1,13 @@
+{
+  "archive_file": "P1_PRIMARY_EXECUTION_ARCHIVE_20260806.tar.gz",
+  "downloaded_archive_sha256": "13a5d860dba1e9f8932fcd3af3b2f98924250ace083337eae39cee29dae87e20",
+  "sidecar_value": "13a5d860dba1e9f8932fcd3af3b2f98924250ace083337eae39cee29dae87e20",
+  "outer_sidecar_status": "MATCH",
+  "internal_manifest": {
+    "path": "archive/P1_PRIMARY_EXECUTION_ARCHIVE_20260806_v2/P1_PRIMARY_EXECUTION_ARCHIVE_20260806/SHA256SUMS.txt",
+    "files_checked": 330,
+    "failures": 0,
+    "status": "PASS"
+  },
+  "interpretation": "The archive contents are internally verified, and the regenerated sidecar matches the content-frozen updated tarball."
+}

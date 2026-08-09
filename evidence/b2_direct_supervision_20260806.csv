@@ -1,0 +1,5 @@
+arm,seed,population,test_cities,test_rasters,rangeland_iou,mean_iou,source
+B2_direct,19,OpenEarthMap city-disjoint held-out test,16,595,0.39344288999147853,0.5206919473039879,outputs/b2_openearthmap_e1_seed19/metrics.json
+B2_direct,37,OpenEarthMap city-disjoint held-out test,16,595,0.3889750143400203,0.5290992539457616,outputs/b2_openearthmap_e1_seed37/metrics.json
+B2_direct,73,OpenEarthMap city-disjoint held-out test,16,595,0.3776265417196102,0.5108109165513326,outputs/b2_openearthmap_e1_seed73/metrics.json
+B2_direct_mean,19|37|73,OpenEarthMap city-disjoint held-out test,16,595,0.38668148201703634,0.520200705933694,Arithmetic mean across the three B2_direct checkpoints; rangeland sample SD=0.008153798872408328; mean-IoU sample SD=0.009154059740139015

@@ -1,0 +1,60 @@
+{
+  "comparison_version": "reconciled-summary-core-v1",
+  "generated_at": "2026-08-06T04:26:23.476906+00:00",
+  "summary": {
+    "files_checked": 8,
+    "core_matches": 8,
+    "core_mismatches": 0,
+    "verdict": "PASS"
+  },
+  "comparisons": [
+    {
+      "summary": "flair_b1_oem_no_paris_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:2af372db3e7a9792bfa6eee5177d441435a755b62725ff8549645d58d19dd1e8",
+      "rerun_core_sha256": "sha256:2af372db3e7a9792bfa6eee5177d441435a755b62725ff8549645d58d19dd1e8"
+    },
+    {
+      "summary": "flair_supported_leaf_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:2738c3d4b8908f11ca30385f4f755f9f5fb79257dcc61a62a8a6fd02d8db2b41",
+      "rerun_core_sha256": "sha256:2738c3d4b8908f11ca30385f4f755f9f5fb79257dcc61a62a8a6fd02d8db2b41"
+    },
+    {
+      "summary": "flair_b0_half_oem_no_paris_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:8f6558a7ec23acc01fe072f1156214016295e0012c1a61b69f1e41023fb4273d",
+      "rerun_core_sha256": "sha256:8f6558a7ec23acc01fe072f1156214016295e0012c1a61b69f1e41023fb4273d"
+    },
+    {
+      "summary": "flair_batch_control_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:3b85083fb03506e7d7639823ff87b21a5a7311b36b958263c7b288bed4082a00",
+      "rerun_core_sha256": "sha256:3b85083fb03506e7d7639823ff87b21a5a7311b36b958263c7b288bed4082a00"
+    },
+    {
+      "summary": "semantic_drone_confirmation_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:9d09d34a60bc1e2577281bb51a99a59f58fca0ffaa7622cc8afe4f7280ec31fa",
+      "rerun_core_sha256": "sha256:9d09d34a60bc1e2577281bb51a99a59f58fca0ffaa7622cc8afe4f7280ec31fa"
+    },
+    {
+      "summary": "semantic_drone_confirmation_bootstrap_396_exploratory.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:19b79e379db4a4ee2fb550a625acd2fa1e0f202cf04dd5bff7b65ee1c677fedb",
+      "rerun_core_sha256": "sha256:19b79e379db4a4ee2fb550a625acd2fa1e0f202cf04dd5bff7b65ee1c677fedb"
+    },
+    {
+      "summary": "b2_openearthmap_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:88588c998a268a5268244af39dbe6f549ca60e574c7a626f5471d5ef870b2daa",
+      "rerun_core_sha256": "sha256:88588c998a268a5268244af39dbe6f549ca60e574c7a626f5471d5ef870b2daa"
+    },
+    {
+      "summary": "e0_b0_oem_b2test_bootstrap_summary.json",
+      "numeric_and_structural_core": "match",
+      "archived_core_sha256": "sha256:3ad69911ba00935ddd5921dc63b80742fc2d9e8cd7271e974bfdd91a96ddc4d0",
+      "rerun_core_sha256": "sha256:3ad69911ba00935ddd5921dc63b80742fc2d9e8cd7271e974bfdd91a96ddc4d0"
+    }
+  ]
+}

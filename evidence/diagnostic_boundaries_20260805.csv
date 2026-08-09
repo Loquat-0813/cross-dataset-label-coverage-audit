@@ -1,0 +1,4 @@
+diagnostic,population,estimate,ci_lower,ci_upper,unit,role,source,boundary
+E0_B0_OEM_B2,rangeland_iou_B0_minus_E0,-0.010389,-0.014148,-0.007013,city,checkpoint-specific lower-IoU diagnostic,e0_b0_oem_b2test_bootstrap_summary.json,16-city B2 subset and no universal suppression claim
+E3_root_routing,eligible_pixel_root_route_rate,0.977932,NA,NA,pixel,failed negative control,outputs/e3_coverage_guard_openearthmap_smoke_v2/metrics.json,About 97.8 percent of eligible pixels in the four-raster OpenEarthMap smoke evaluation; no further tuning or method claim
+semantic_distance,pearson_distance_vs_delta,0.317735,NA,NA,leaf,exploratory six-leaf diagnostic,flair_b1_oem_b2test_semantic_allocation.json,n equals 6 and excluded from main claims

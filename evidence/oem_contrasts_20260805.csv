@@ -1,0 +1,8 @@
+contrast,metric,estimate,ci_lower,ci_upper,unit,n,interpretation,source
+B1-B0,rangeland_iou,0.311761,0.282103,0.339855,city,74,Primary missing-leaf contrast,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,mean_iou,-0.042163,NA,NA,city,74,Overall IoU difference; not a supported-leaf metric,flair_b1_oem_no_paris_bootstrap_summary.json
+B1-B0,supported_leaf_miou,-0.101150,-0.121276,-0.082108,city,74,Six LoveDA-supported leaves only,flair_supported_leaf_bootstrap_summary.json
+B0-half-B0,mean_iou,-0.006941,-0.010008,-0.003804,city,74,LoveDA exposure control,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B1-B0-half,mean_iou,-0.035222,-0.053812,-0.018212,city,74,Residual fixed-budget source-mixture contrast,flair_b0_half_oem_no_paris_bootstrap_summary.json
+B0-half-batch2-B0-half,rangeland_iou,0.000000,0.000000,0.000000,city,74,Formal duplicate-crop integrity check,flair_batch_control_summary.json
+B1-B0-half-batch2,rangeland_iou,0.311761,0.281944,0.339921,city,74,Source-mixture contrast after matched batch structure,flair_batch_control_summary.json

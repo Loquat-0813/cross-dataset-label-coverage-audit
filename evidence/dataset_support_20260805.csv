@@ -1,0 +1,5 @@
+dataset,role,raw_label_or_leaf,canonical_leaf,exact_support,pair_count_or_population,audit_record,scope_note
+LoveDA,source,none,herbaceous_vegetation,no,2522 training pairs,dataset-label-mappings-v0,No exact herbaceous source supervision
+FLAIR,auxiliary source,raw ID 10,herbaceous_vegetation,yes,47712 training pairs,flair_b1_full_raw_audit_2026-08-03.json,Only official RGB channels and raw ID 10 enter B1
+OpenEarthMap,primary target,rangeland,herbaceous_vegetation,yes,74 Paris-excluded cities / 2638 eligible pairs,flair_b1_source_ready_2026-08-03.json,Primary OEM replay population
+Semantic Drone,confirmation target,grass,herbaceous_vegetation,yes,400 frozen-manifest rasters,semantic_drone_confirmation_manifest_20260804.json,Independent benchmark with raster-level uncertainty

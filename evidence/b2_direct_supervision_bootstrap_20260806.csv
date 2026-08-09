@@ -1,0 +1,2 @@
+contrast,metric,estimate,ci_lower,ci_upper,unit,source,boundary
+B2_direct_minus_E0,rangeland_iou,0.376292,0.343018,0.403020,paired city bootstrap,outputs/b2_openearthmap_bootstrap_summary.json,Within-OpenEarthMap direct-supervision learnability contrast; conditioned on completed checkpoints
